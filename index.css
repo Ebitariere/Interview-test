@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: white;
+}
+
+h2, h3{
+    color: #4A154B;
+}
+
+p{
+    color: #2B1E2A;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    background: #4A154B;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 5px;
+    transition: color 0.2s ease;
+}
+
+hr{
+    border: 1px solid #6B5E6B;
+}
+
+.about{
+    display: flex;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background: white;
+    border: 1px solid  #2B1E2A;
+    border-radius: 8px;
+    
+}
+
+.about-img img{
+    max-width: 150px;
+    border-radius: 47%;
+}
+
+.abt-txt{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.exp {
+   text-align: center;
+   margin: auto;
+   margin-top: 30px;
+   max-width: 60%;
+}
+
+.exp-text p{
+    padding: 10px;
+}
+
+.exp-articles{
+    display: flex;
+}
+
+.card{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px #4A154B;
+}
+
+.gallery{
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.gallery p{
+    padding: 10px;
+}
