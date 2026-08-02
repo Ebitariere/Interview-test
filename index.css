@@ -21,7 +21,7 @@ header{
     background: #4A154B;
 }
 
-header a{
+a{
     text-decoration: none;
     color: white;
     font-weight: 600;
@@ -92,9 +92,35 @@ hr{
     text-align: center;
     max-width: 60%;
     margin: auto;
+    margin-bottom: 30px;
     margin-top: 30px;
 }
 
 .gallery p{
     padding: 10px;
 }
+
+.gallery-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img{
+    max-width: 200px;
+}
+
+.gallery-card{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-card:hover{
+      transform: translateY(-4px);
+  box-shadow: 0 10px 20px #4A154B;
+}
+
